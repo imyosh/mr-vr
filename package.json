@@ -1,0 +1,25 @@
+{
+  "name": "mr.vr",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite preview",
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@srexi/purecounterjs": "^1.5.0",
+    "aos": "^2.3.4",
+    "dat.gui": "^0.7.9",
+    "jquery": "^3.7.1",
+    "path": "^0.12.7",
+    "slick-carousel": "^1.8.1",
+    "swiper": "^11.1.14",
+    "three": "^0.169.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-legacy": "^5.4.2",
+    "vite": "^5.4.9"
+  }
+}
