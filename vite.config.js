@@ -1,6 +1,5 @@
 import { defineConfig } from "vite";
 import legacy from "@vitejs/plugin-legacy";
-import path from "path";
 
 export default defineConfig({
   plugins: [
@@ -11,10 +10,12 @@ export default defineConfig({
   build: {
     rollupOptions: {
       input: {
-        main: path.resolve(__dirname, "index.html"),
-        about: path.resolve(__dirname, "pages/about.html"),
+        main: "index.html",
+        about: "pages/about.html",
         contact: "pages/contact.html",
-        "course-details": "pages/course-details.html",
+        "course-automotive": "pages/course-automotive.html",
+        "course-virtual-surgery": "pages/course-virtual-surgery.html",
+        "course-vr-chemistry": "pages/course-vr-chemistry.html",
         courses: "pages/courses.html",
         events: "pages/events.html",
         media: "pages/media.html",
